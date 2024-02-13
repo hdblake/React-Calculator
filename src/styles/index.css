@@ -9,3 +9,18 @@
 body {
   margin: 0 auto;
 }
+
+.root.theme-1 {
+  background-color: hsl(222, 26%, 31%);
+  height: 100vh;
+}
+
+.root.theme-2 {
+  background-color: hsl(0, 0%, 90%);
+  height: 100vh;
+}
+
+.root.theme-3 {
+  background-color: hsl(268, 75%, 9%);
+  height: 100vh;
+}
