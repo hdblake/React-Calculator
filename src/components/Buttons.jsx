@@ -1,29 +1,9 @@
 import { useState } from "react";
 import Display from "./Display.jsx";
+import { buttons } from "../data/buttons.js";
 
 export default function Buttons({ themes, theme }) {
   const [displayValue, setDisplayValue] = useState("");
-
-  const buttons = [
-    7,
-    8,
-    9,
-    "DEL",
-    4,
-    5,
-    6,
-    "+",
-    1,
-    2,
-    3,
-    "-",
-    ".",
-    0,
-    "/",
-    "x",
-    "RESET",
-    "=",
-  ];
 
   const handleClick = (value) => {
     if (value === "DEL") {
